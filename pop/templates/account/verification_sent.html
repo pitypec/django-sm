@@ -4,16 +4,16 @@
 
 
 {%block head_title %}
-  Verify Your E-mail Address
+  {%translate "Verify Your E-mail Address" %}
 {%endblock head_title %}
 
 {%block content %}
 <div class="container mt-5">
     <div class="row d-flex justify-content-center">
         <div class="col-6 col-md-6 ">
-            <h1 class="text-center">{%trans "Verify Your E-mail Address" %}</h1>
+            <h1 class="text-center">{%translate "Verify Your E-mail Address" %}</h1>
 
-            <p class="text-center">{%blocktrans %}We have sent an e-mail to you for verification. Follow the link provided to finalize the signup process. Please contact us if you do not receive it within a few minutes.{% endblocktrans %}</p>
+            <p class="text-center">{%blocktranslate %}We have sent an e-mail to you for verification. Follow the link provided to finalize the signup process. Please contact us if you do not receive it within a few minutes.{%endblocktranslate %}</p>
         </div>
     </div>
 </div>
