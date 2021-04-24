@@ -12,8 +12,8 @@
     {% block body %}
 
     {% if messages %}
-    <div class='container d-flex justify-content-center'>
-      <strong>Messages:</strong>
+    <div class='container d-flex justify-content-center bg-success'>
+      <strong class='mr-3'>Messages:</strong>
       <ul class='list-unstyled'>
         {% for message in messages %}
         <li>{{message}}</li>
