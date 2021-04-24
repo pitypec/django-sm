@@ -12,9 +12,9 @@
     {% block body %}
 
     {% if messages %}
-    <div>
+    <div class='container d-flex justify-content-center'>
       <strong>Messages:</strong>
-      <ul>
+      <ul class='list-unstyled'>
         {% for message in messages %}
         <li>{{message}}</li>
         {% endfor %}
